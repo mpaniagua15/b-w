@@ -1,0 +1,17 @@
+{
+    "port": 3000,
+    "tmp_folder": "C:/ProgramData/MySQL/MySQL Server 5.7/Uploads",
+    "reports":{
+        "input": {
+            "fields_separation": ";"
+        }
+    },
+    "mysql":{
+        "command": "mysql -uroot -proot wiki -e",
+        "host": "localhost",
+        "user": "root",
+        "password": "root",
+        "database": "wiki",
+        "connectionLimit": 5
+    }
+}
